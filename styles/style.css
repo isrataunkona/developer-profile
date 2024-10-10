@@ -43,6 +43,7 @@
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+    margin-top: 35px;
 }
 
 /* Banner portion style  */
@@ -467,4 +468,52 @@ border-radius: 8px;
 background: rgb(255, 255, 255);
 font-size: 18px;
 font-weight: 700;
+}
+
+/* Footer section style */
+
+.footer{
+    width: 1041px;
+height: 50px;
+left: 0;
+top: 5145px;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+
+}
+
+
+.h3footer{
+  
+height: 23px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 20;
+padding: 0px;
+color: rgb(13, 19, 33);
+font-size: 18px;
+font-weight: 800;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 12px;
+}
+
+.icon1{
+    margin-left: 450px;
+}
+.icon2{
+    margin-left: 20px;
+}
+.icon3{
+    margin-left: 20px;
 }
