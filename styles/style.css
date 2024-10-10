@@ -66,19 +66,16 @@
     position: static;
     width: 998px;
     height: 136px;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 24;
-
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px auto;
     color: rgb(13, 19, 33);
-
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
@@ -90,19 +87,13 @@
 position: static;
 width: 852px;
 height: 52px;
-
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 gap: 24;
 padding: 0px;
-
-/* flex: none;
-order: 1;
-flex-grow: 0; */
 margin: 24px 0px;
-
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -118,7 +109,6 @@ letter-spacing: 0%;
 text-align: center;
 }
 .btn-primary{
-    
 width: 244px;
 height: 65px;
 display: flex;
@@ -127,19 +117,51 @@ justify-content: center;
 align-items: center;
 gap: 10;
 padding: 21px 24px 21px 24px;
-
-/* flex: none;
-order: 1;
-flex-grow: 0; */
 margin:  0px auto;
 border-radius: 8px;
-
 background: rgb(13, 19, 33);
 color: rgb(255, 255, 255);
 text-align: center;
-
+font-family: Azeret mono ;
 }
-/* .btn-text{
-    
-color: rgb(255, 255, 255);
-} */
+
+/* Main Section portion style */
+.section-main{
+    margin-top: 800px;
+}
+.main-text{
+    margin: 0px auto;
+width: 852px;
+height: 37px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+margin-left: 270px;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+color: rgb(13, 19, 33);
+margin-bottom: 38px;
+}
+.main-description{
+width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 24;
+padding: 0px;
+margin: 0px auto;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
