@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  /* Navigation portion style */
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 700px;
+  }
+  .nav-title{
+    font-weight: 800;
+    font-size: 28px;
+    color: rgb(13, 19, 33);
+    width: 128px;
+    height: 33px;
+    margin-top: 50px;
+  }
+
+  nav ul{
+    list-style: none;
+  }
+
+ .btn_1 {
+    width: 244px;
+    height: 57px;
+    left: 1046px;
+    top: 38px;
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+
+/* Banner portion style  */
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    position: absolute;
+    width: 1440px;
+    height: 652px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+}
+.group{
+    width: 240.28px;
+    height: 240px;
+    margin: 26px 550px ;
+
+}
+.banner .hero-bg-h2{
+    position: static;
+    width: 998px;
+    height: 136px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px auto;
+    color: rgb(13, 19, 33);
+
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner .hero-bg-p{
+
+position: static;
+width: 852px;
+height: 52px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+/* flex: none;
+order: 1;
+flex-grow: 0; */
+margin: 24px 0px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin:  0px auto;
+opacity: 0.7;
+margin-top: 48px;
+margin-bottom: 32px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.btn-primary{
+    
+width: 244px;
+height: 65px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 21px 24px 21px 24px;
+
+/* flex: none;
+order: 1;
+flex-grow: 0; */
+margin:  0px auto;
+border-radius: 8px;
+
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+text-align: center;
+
+}
+/* .btn-text{
+    
+color: rgb(255, 255, 255);
+} */
