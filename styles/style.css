@@ -244,3 +244,125 @@ margin: 32px 0px;
     width: 259.56px;
 height: 217.01px;
 }
+/* Inspiration Section style */
+.inspiration-section{
+    margin-top: 120px;
+    margin-left: 220px;
+}
+     
+
+.inspiration-text{
+    width: 852px;
+height: 37px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.inspiration-description{
+    width: 852px;
+height: 52px;
+padding: 0px;
+opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.video{
+    width: 900px;
+    height: 550px;
+border-radius: 16px;
+margin-left: 0px;
+margin-bottom: 150px;
+}
+
+/* Current Target Portion style */
+.target-text{
+    width: 852px;
+    height: 37px;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.target-description{
+    width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.target-content{
+    margin-left: 148px;
+    margin-right: 148px;
+}
+.target-container{
+    display: flex;
+    gap: 24px;
+}
+.target{
+    padding: 30px;
+}
+.target-title{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.description{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+}
+.html-color{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    width: 364px;
+    height: 299px;
+}
+.css-color{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 364px; 
+    height: 299px;
+}
+.js-color{
+    border-radius: 16px; 
+    background: rgba(255, 223, 0, 0.05);
+    width: 364px;
+    height: 299px;
+}
